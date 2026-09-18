@@ -5,19 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe",
-      "server": "64.227.67.161",
-      "server_port": 2083,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.21.78.194",
+      "server_port": 443,
+      "uuid": "2c0109e7-8d35-4d20-a076-0d4eb9eb444d",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "server_name": "ger.chalghooz.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
+        "path": "/cloude",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "ger.chalghooz.com"
         }
       }
     },
@@ -26,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
