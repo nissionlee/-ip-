@@ -4,14 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "188.114.97.8",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "513beae3-56e7-4954-a17e-930e06237b27",
+      "password": "mitivpn",
       "tls": {
         "enabled": true,
-        "server_name": "cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv",
+        "server_name": "ssl.fastly.com",
         "insecure": false,
         "alpn": [
           "http/1.1"
@@ -23,18 +23,18 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/FuJlzLUhMmosE6ySAHYtJDUq6XlF?ed=2560",
+        "path": "/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP",
         "headers": {
-          "Host": "cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev"
+          "Host": "mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "194.87.59.13",
+      "server": "194.87.59.104",
       "server_port": 2085,
-      "uuid": "6687af93-eb39-47a3-9a73-0f79234ef507",
+      "uuid": "7b07d862-b698-47c1-884b-3e7dd6c8b862",
       "transport": {
         "type": "grpc",
         "service_name": "vless"
