@@ -5,20 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.16.156.227
+  server: ccs2g.pai50288.uk
   port: 443
   udp: true
   type: vless
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
   tls: true
-  servername: u.srilankangrill.online
+  servername: ccs2g.pai50288.uk
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
+    path: /pai50288
 proxy-groups:
 - name: PROXIES
   type: select
