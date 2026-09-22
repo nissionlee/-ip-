@@ -14,7 +14,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -26,12 +26,103 @@
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 02 - xiaohe",
-      "server": "platform109.golnamakcert.top",
+      "server": "platform118.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform109"
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 03 - xiaohe",
+      "server": "172.64.145.202",
+      "server_port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 04 - xiaohe",
+      "server": "45.131.4.41",
+      "server_port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 05 - xiaohe",
+      "server": "172.64.153.88",
+      "server_port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇱 智利 (Chile) 06 - xiaohe",
+      "server": "172.64.145.202",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "newwk1.f1w.de5.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "newwk1.f1w.de5.net"
+        }
       }
     },
     {
@@ -40,7 +131,11 @@
       "outbounds": [
         "auto",
         "🇨🇱 智利 (Chile) 01 - xiaohe",
-        "🇨🇱 智利 (Chile) 02 - xiaohe"
+        "🇨🇱 智利 (Chile) 02 - xiaohe",
+        "🇨🇱 智利 (Chile) 03 - xiaohe",
+        "🇨🇱 智利 (Chile) 04 - xiaohe",
+        "🇨🇱 智利 (Chile) 05 - xiaohe",
+        "🇨🇱 智利 (Chile) 06 - xiaohe"
       ]
     },
     {
@@ -48,7 +143,11 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇱 智利 (Chile) 01 - xiaohe",
-        "🇨🇱 智利 (Chile) 02 - xiaohe"
+        "🇨🇱 智利 (Chile) 02 - xiaohe",
+        "🇨🇱 智利 (Chile) 03 - xiaohe",
+        "🇨🇱 智利 (Chile) 04 - xiaohe",
+        "🇨🇱 智利 (Chile) 05 - xiaohe",
+        "🇨🇱 智利 (Chile) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
