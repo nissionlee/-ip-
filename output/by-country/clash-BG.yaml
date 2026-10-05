@@ -4,16 +4,17 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe
-  server: 107.189.7.176
-  port: 32752
+- name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  server: 193.148.59.178
+  port: 443
   udp: true
   type: vless
-  uuid: d72045ad-9c37-4768-89c1-88fe6ae7f9fc
+  uuid: 20d7c485-5d24-49b5-a5cc-bb7a7daf9908
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: pfFcQxKv4EPhCDUoZMCmTjj4FK7HHQg_me-In3bOejA
-    short-id: d758a643034ad90e
+    public-key: -GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE
+    short-id: e3daad69
   servername: www.apple.com
   client-fingerprint: chrome
 proxy-groups:
@@ -21,12 +22,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
 rules:
 - MATCH,PROXIES
