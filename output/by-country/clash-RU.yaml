@@ -33,6 +33,22 @@ proxies:
   cipher: aes-256-gcm
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: 194.87.118.184
+  port: 2053
+  udp: true
+  type: hysteria2
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  sni: 194.87.118.184
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  server: 194.87.118.184
+  port: 2053
+  udp: true
+  type: hysteria2
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  sni: match-stream.lovkisport.blog
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   server: 139.28.168.75
   port: 10444
   udp: true
@@ -45,42 +61,7 @@ proxies:
     short-id: 8debcf36f1cc69ff
   servername: video.yandex.ru
   client-fingerprint: safari
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 194.87.118.184
-  port: 2053
-  udp: true
-  type: hysteria2
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: 194.87.118.184
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  server: 194.87.118.184
-  port: 2053
-  udp: true
-  type: hysteria2
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: match-stream.lovkisport.blog
-  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  server: aelix-al.safire-soleiman.ir
-  port: 6311
-  udp: true
-  type: vless
-  uuid: 2ffa91fe-e1cc-4c44-a90a-45002feae978
-  tls: true
-  reality-opts:
-    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-  servername: play.google.com
-  client-fingerprint: qq
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  server: outh.yandex-cloud.org
-  port: 54183
-  udp: true
-  type: hysteria2
-  password: 082f5694-9019-4110-b67b-8125dbb9bab8
-  sni: outh.yandex-cloud.org
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
   server: 193.233.74.6
   port: 8444
   udp: true
@@ -107,8 +88,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -121,7 +100,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
 rules:
 - MATCH,PROXIES
