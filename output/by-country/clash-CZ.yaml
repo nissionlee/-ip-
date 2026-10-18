@@ -12,6 +12,19 @@ proxies:
   cipher: aes-256-gcm
   password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 195.123.245.241
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7c053ca8-38cc-45e2-930c-eda1fd66f903
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw
+    short-id: 23d0950d60bc0d5b
+  servername: gateway.icloud.com
+  client-fingerprint: chrome
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
   server: 81.28.12.12
   port: 443
   udp: true
@@ -20,27 +33,12 @@ proxies:
   tls: true
   servername: node-3.wt419.site
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /qVnRkTxmLwBzHjYpFaDgUcSeNrKxMtVbWqZhPcLsJfGy
     headers:
       Host: node-3.wt419.site
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
-  server: 81.90.31.111
-  port: 443
-  udp: true
-  type: vless
-  uuid: d78d6815-5f00-4fe3-8aae-3344aeb7783f
-  tls: true
-  servername: 1f0c1c7297521d51.wgse.info
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: 1f0c1c7297521d51.wgse.info
 proxy-groups:
 - name: PROXIES
   type: select
