@@ -4,17 +4,31 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-      "server": "49.254.204.133",
-      "server_port": 1774,
-      "method": "aes-256-cfb",
-      "password": "1234!@#$"
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe",
+      "server": "162.159.152.4",
+      "server_port": 443,
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "tls": {
+        "enabled": true,
+        "server_name": "rayan-007.maxima.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "rayan-007.maxima.dpdns.org"
+        }
+      }
     },
     {
       "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-      "server": "218.237.185.234",
+      "server": "p141.panda001.net",
       "server_port": 4652,
       "method": "aes-256-cfb",
       "password": "qwerREWQ@@"
@@ -24,7 +38,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe"
       ]
     },
@@ -32,7 +46,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+        "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
