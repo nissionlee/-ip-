@@ -14,7 +14,7 @@
         "server_name": "github.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -30,24 +30,42 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-      "server": "206.1.101.85",
-      "server_port": 42654,
-      "uuid": "ab9e2cf5-b5f5-45d1-bddf-8ea9b6fcc48f",
+      "server": "177.3.208.65",
+      "server_port": 443,
+      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
       "tls": {
         "enabled": true,
-        "server_name": "206.1.101.85",
+        "server_name": "tgmansion.site",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/vless-tr"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "server": "tr2.h1cloud.net",
+      "server_port": 25021,
+      "uuid": "2446e2e2-1ce3-4502-9050-1dd32bacc68c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg",
+          "short_id": "17fa3af0924c88b3"
+        }
       }
     },
     {
@@ -56,7 +74,8 @@
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
       ]
     },
     {
@@ -64,7 +83,8 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -39,8 +39,59 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 04 - xiaohe",
+      "server": "pol.rvpn.app",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "8z2OB_gvFvpKgjFi8s9Cvw"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
+      "server": "78.17.128.153",
+      "server_port": 35076,
+      "password": "b4c8ee9caa74b7ba0a61",
+      "tls": {
+        "enabled": true,
+        "server_name": "scrap.halyvanedorogo.ru",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe",
+      "server": "54.37.131.126",
+      "server_port": 80,
+      "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇵🇱 波兰 (Poland) 07 - xiaohe",
+      "server": "92.118.150.146",
+      "server_port": 443,
+      "password": "Trojan@82164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.tronsg.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 08 - xiaohe",
       "server": "2.26.6.1",
       "server_port": 2087,
       "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
@@ -48,26 +99,6 @@
         "enabled": true,
         "server_name": "2.26.6.1",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - xiaohe",
-      "server": "poland-new-new.failspace.top",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "poland-new-new.failspace.top",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
       }
     },
     {
@@ -79,7 +110,10 @@
         "🇵🇱 波兰 (Poland) 02 - xiaohe",
         "🇵🇱 波兰 (Poland) 03 - xiaohe",
         "🇵🇱 波兰 (Poland) 04 - xiaohe",
-        "🇵🇱 波兰 (Poland) 05 - xiaohe"
+        "🇵🇱 波兰 (Poland) 05 - xiaohe",
+        "🇵🇱 波兰 (Poland) 06 - xiaohe",
+        "🇵🇱 波兰 (Poland) 07 - xiaohe",
+        "🇵🇱 波兰 (Poland) 08 - xiaohe"
       ]
     },
     {
@@ -90,7 +124,10 @@
         "🇵🇱 波兰 (Poland) 02 - xiaohe",
         "🇵🇱 波兰 (Poland) 03 - xiaohe",
         "🇵🇱 波兰 (Poland) 04 - xiaohe",
-        "🇵🇱 波兰 (Poland) 05 - xiaohe"
+        "🇵🇱 波兰 (Poland) 05 - xiaohe",
+        "🇵🇱 波兰 (Poland) 06 - xiaohe",
+        "🇵🇱 波兰 (Poland) 07 - xiaohe",
+        "🇵🇱 波兰 (Poland) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
