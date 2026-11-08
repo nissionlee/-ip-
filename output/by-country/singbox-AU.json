@@ -16,12 +16,16 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "anytls",
       "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "server": "67.220.95.3",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
+      "server": "user02.godvpn.lol",
+      "server_port": 62405,
+      "password": "4bbfa33a-449a-4a50-8dfc-6d0de880f7bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "user02.godvpn.lol",
+        "insecure": true
+      }
     },
     {
       "type": "selector",
