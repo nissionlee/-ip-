@@ -5,20 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.58.37
-  port: 2053
+  server: 172.66.203.67
+  port: 443
   udp: true
-  type: vless
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: fast.145779.xyz
+  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: false
-  client-fingerprint: android
   network: ws
   ws-opts:
-    path: /ws-tesla
+    path: /ws
     headers:
-      Host: fast.145779.xyz
+      Host: vmess.lbw666.dpdns.org
 proxy-groups:
 - name: PROXIES
   type: select

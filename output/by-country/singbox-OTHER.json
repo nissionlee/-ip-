@@ -4,25 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.58.37",
-      "server_port": 2053,
-      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "server": "172.66.203.67",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "fast.145779.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/ws-tesla",
+        "path": "/ws",
         "headers": {
-          "Host": "fast.145779.xyz"
+          "Host": "vmess.lbw666.dpdns.org"
         }
       }
     },
