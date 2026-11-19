@@ -5,21 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 84.17.41.2
-  port: 18000
+  server: 13.55.52.44
+  port: 36712
   udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: hysteria2
+  password: linlin-2026
+  sni: 13.55.52.44
+  skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   server: 45.63.30.142
   port: 443
   udp: true
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 45.63.30.142
-  skip-cert-verify: true
+  sni: connectwithemployerstohireyouridealteam.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
