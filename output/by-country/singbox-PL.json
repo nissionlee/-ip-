@@ -5,23 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-      "server": "191.217.238.38",
+      "tag": "🇵🇱 波兰 (Poland) 01 - xiaohe",
+      "server": "144.31.4.18",
       "server_port": 443,
-      "uuid": "097eae28-f0e7-4b18-bce2-16cf7d9deb05",
-      "flow": "xtls-rprx-vision",
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
       "tls": {
         "enabled": true,
-        "server_name": "www.bmw.de",
+        "server_name": "marginbirch.cleanfoodshop.org",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vq0Fi871QaDVmxY7F0XWByt9muX3-16E31XfHWZj9D8",
-          "short_id": "28138197d12e8e38"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/"
       }
     },
     {
@@ -29,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
+        "🇵🇱 波兰 (Poland) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
+        "🇵🇱 波兰 (Poland) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
